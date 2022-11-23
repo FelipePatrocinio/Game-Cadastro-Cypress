@@ -11,7 +11,7 @@ describe('All Testes', () => {
       cy.get('input[name="password_confirm"]').type('123456789')
       cy.get('input[name="email"]').type('Felipe12547@hotmail.com')
       cy.get('input[name="termos_de_uso"]').click()
-      cy.get('input[name="termos_de_uso"]')
+      cy.get('input[name="termos_de_uso"]').click()
   
     })
 
@@ -26,7 +26,7 @@ describe('All Testes', () => {
         cy.get('input[name="password_confirm"]').type('123456789')
         cy.get('input[name="email"]').type('Felipe12547@hotmail.com')
         cy.get('input[name="termos_de_uso"]').click()
-        cy.get('input[name="termos_de_uso"]')
+        cy.get('input[name="termos_de_uso"]').click()
     
       })
 
@@ -41,7 +41,7 @@ describe('All Testes', () => {
         cy.get('input[name="password_confirm"]').type('123456789')
         cy.get('input[name="email"]').type('Felipe12547@hotmail.com')
         cy.get('input[name="termos_de_uso"]').click()
-        cy.get('input[name="termos_de_uso"]')
+        cy.get('input[name="termos_de_uso"]').click()
     
       })
 
@@ -56,7 +56,7 @@ describe('All Testes', () => {
         cy.get('input[name="password_confirm"]').type('123456')
         cy.get('input[name="email"]').type('Felipe12547@hotmail.com')
         cy.get('input[name="termos_de_uso"]').click()
-        cy.get('input[name="termos_de_uso"]')
+        cy.get('input[name="termos_de_uso"]').click()
     
       })
 
@@ -71,7 +71,7 @@ describe('All Testes', () => {
         cy.get('input[name="password_confirm"]').type('123456789')
         cy.get('input[name="email"]').type('Felipe12547hotmail,com')
         cy.get('input[name="termos_de_uso"]').click()
-        cy.get('input[name="termos_de_uso"]')
+        cy.get('input[name="termos_de_uso"]').click()
     
       })
 
@@ -85,7 +85,7 @@ describe('All Testes', () => {
         cy.get('input[name="senha"]').type('123456789')
         cy.get('input[name="password_confirm"]').type('123456789')
         cy.get('input[name="email"]').type('Felipe12547@hotmail.com')
-        cy.get('input[name="termos_de_uso"]')
+        cy.get('input[name="termos_de_uso"]').click()
     
       })
 
