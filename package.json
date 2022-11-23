@@ -1,0 +1,14 @@
+{
+  "name": "testecy",
+  "version": "1.0.0",
+  "description": "Projeto de testes de automação",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Felipe Patrocinio",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^11.0.1"
+  }
+}
